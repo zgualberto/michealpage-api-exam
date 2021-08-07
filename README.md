@@ -12,5 +12,6 @@
 1. to run API - `php artisan serve`
 1. Make sure to have the right permissions specially on the API when running it via `php artisan serve` or NGINX
 1. I have also attached my Postman Collection as a JSON file in the `root` folder for your reference on how to use the API
+1. Also, I'll honestly admit that I can't answer the `BONUS challenge`
 
 If you have more questions kindly email me @ ziegfrid.gualberto@gmail.com

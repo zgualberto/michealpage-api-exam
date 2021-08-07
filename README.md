@@ -1,9 +1,10 @@
 ## APP Setup
 
-1. Setup MYSQL, PHP, Composer
+1. Setup MYSQL, PHP, Composer, Redis
     * MYSQL 8
     * PHP 7.4
     * Composer 2
+    * Redis 5
 1. Create `.env` on `root` folder check `.env.example` for reference
 1. Setup DATABASE Configuration on `.env` located on root folder
 1. Go to root directory and run the ff:

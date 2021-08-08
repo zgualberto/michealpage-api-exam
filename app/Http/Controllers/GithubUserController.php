@@ -23,6 +23,6 @@ class GithubUserController extends Controller
      */
     public function index(GithubUserPostRequest $request): JsonResponse
     {
-        return $this->handleResponse($this->githubApiService->list($request->input('users')));
+        return $this->handleResponse($this->githubApiService->list($request->get('users')));
     }
 }

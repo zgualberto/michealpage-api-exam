@@ -23,5 +23,5 @@ Route::group(['middleware' => ['auth:sanctum']], function () {
     Route::prefix('auth')->group(function () {
         Route::post('/logout', [App\Http\Controllers\AuthController::class, 'logout'])->name('auth.logout');
     });
-    Route::post('/list-users', [App\Http\Controllers\GithubUserController::class, 'index'])->name('github-users.profile');
+    Route::get('/list-users', [App\Http\Controllers\GithubUserController::class, 'index'])->name('github-users.profile');
 });

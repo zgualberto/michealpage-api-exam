@@ -43,7 +43,7 @@ class GithubApiService
                 array_push($githubUsers, $userCache);
             }
         }
-        usort($githubUsers, function($a, $b) {
+        usort($githubUsers, function ($a, $b) {
             return strcmp($a['name'], $b['name']);
         });
         return $githubUsers;
